@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+PyMySQL
+python-dotenv
+xlsxwriter
+python-calamine

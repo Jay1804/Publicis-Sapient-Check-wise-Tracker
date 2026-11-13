@@ -1,0 +1,24 @@
+# secrets / credentials
+.env
+.env.*
+!.env.example
+
+# data & generated reports (contain candidate PII)
+*.xlsx
+*.xls
+*.csv
+*.pkl
+.cache/
+
+# python / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+.streamlit/secrets.toml
+*.log
+.idea/
+.vscode/
+
+# requirements notes (not part of the app)
+Public Sapient_Logic.txt
